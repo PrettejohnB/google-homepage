@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  height: 60px;
+  width: 100%;
+}
+
+.header .account {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 24px;
+}
+
+.header .account a {
+  text-decoration: none;
+  color: black;
+  margin: 4px;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.header .account a:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.header .account .user {
+  background-image: url(https://lh3.googleusercontent.com/ogw/ADGmqu_Vf-FqegzUMQoov0EwjY0c0IxWGdgvPwKvxtRl=s32-c-mo);
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.header .account .apps {
+  background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  background-position-x: -132px;
+  background-position-y: -38px;
+  opacity: 0.85;
+  height: 32px;
+  width: 32px;
+}
+
+.content {
+  display: flex;
+  height: 233px;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  /* background-color: lightblue; */
+  height: 400px;
+  width: 60%;
+  margin: auto;
+}
+
+.search .searchbar {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 582px;
+  margin-top: 20px;
+}
+
+.search .buttons {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.search .languages {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.search .languages a {
+  margin: 0 8px 0 8px;
+  text-decoration: None;
+  color: #1a0dab;
+}
+
+.search .languages a:hover {
+  text-decoration: underline;
+}
+
+.buttons button {
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5f6368;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer .links {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  align-items: center;
+  margin-left: 30px;
+  font-size: 14px;
+  border-top: 1px solid rgb(233, 233, 233);
+}
+
+.footer .country {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.footer .links a {
+  text-decoration: none;
+  margin-right: 24px;
+  color: rgb(95, 99, 104);
+}
+
+.footer .links a:hover {
+  text-decoration: underline;
+}
