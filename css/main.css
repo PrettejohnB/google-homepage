@@ -26,7 +26,7 @@ body {
 }
 
 .header .account a:hover {
-  opacity: 0.5;
+  opacity: 0.85;
   text-decoration: underline;
 }
 
@@ -41,9 +41,13 @@ body {
   background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
   background-position-x: -132px;
   background-position-y: -38px;
-  opacity: 0.85;
+  opacity: 0.5;
   height: 32px;
   width: 32px;
+}
+
+.header .account .apps:hover {
+  opacity: 0.85;
 }
 
 .content {
